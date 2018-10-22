@@ -9,10 +9,13 @@ public class RemovedorEspacosDesnecessarios {
 		StringBuilder nomeTratado = new StringBuilder();
 
 		for (int i = 0; i < nomeVetor.length; i++) {
+			// Verifica se é igual a string vazio e testa a logica inversa "!"
 			if (!nomeVetor[i].equals("")) {
+				// Adiciona espaço ao final da palavra de cada posição da lista
 				nomeTratado.append(nomeVetor[i] += " ");
 			}
 		}
+		// Tira o ultimo espaço q foi adicionado no ultimo "for"
 		return nomeTratado.toString().trim();
 	}
 
