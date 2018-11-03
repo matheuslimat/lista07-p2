@@ -1,7 +1,5 @@
 package exercicio05;
 
-import java.util.ArrayList;
-
 public class Vogais {
 
 	private String vogais = "aeiou";
